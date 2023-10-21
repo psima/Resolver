@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "Resolver",
+    platforms: [
+        .macOS(.v10_14), .iOS(.v15)
+    ],
     products: [
         .library(
             name: "Resolver",
